@@ -43,10 +43,7 @@ if attempts == 0:
         print(user_guess_list)
 
 
-while attempts > len(word) and user_guess_list != word_list:
-    if user_guess_list == word_list:
-        print("\nYou guessed the word correctly!")
-        break
+while attempts < len(word) and user_guess_list != word_list:
     # Ask the user to guess a letter    
     guess = input("Guess a letter: ")
     if guess in word:
@@ -67,3 +64,5 @@ while attempts > len(word) and user_guess_list != word_list:
         print(user_guess_list)
         attempts += 1
 
+if user_guess_list == word_list:
+    print("\nYou guessed the word correctly!")

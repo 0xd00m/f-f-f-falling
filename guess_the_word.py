@@ -22,13 +22,19 @@ words = (
 word = random.choice(words)
 
 # Comment out later
-print("\nThis is the random word:", word +  ".\n")
+print("\nThis is the random word:", word + ".\n")
 
 # Number of attempts the user has to guess the word starts with zero
 attempts = 0
 
 # Print the length of the word
-print("The word is of length:", len(word), "and you have", len(word), "attempts to guess it.")
+print(
+    "The word is of length:",
+    len(word),
+    "and you have",
+    len(word),
+    "attempts to guess it.",
+)
 
 user_guess = "_" * len(word)
 
@@ -40,12 +46,15 @@ word_list = list(word)
 
 
 if attempts == 0:
-        print(user_guess_list)
+    print(user_guess_list)
+
+if attempts == len(word):
+    print("\nYou lost!")
 
 
 while attempts < len(word) and user_guess_list != word_list:
-    # Ask the user to guess a letter    
-    guess = input("Guess a letter: ")
+    # Ask the user to guess a letter
+    guess = input("Guess a letter: ").lower()
     if guess in word:
         print("\nYes, the word contains the letter:", guess)
         # Find the index of the letter in the word
@@ -56,11 +65,11 @@ while attempts < len(word) and user_guess_list != word_list:
         print("\nThe index of the letter is:", index)
         # Replace the underscore with the letter
         print(user_guess_list)
-        print(word_list)
-        
 
     else:
-        print("\nYou have lost a life!. You have", len(word) - attempts, "attempts left.")
+        print(
+            "\nYou have lost a life!. You have", len(word) - attempts, "attempts left."
+        )
         print(user_guess_list)
         attempts += 1
 

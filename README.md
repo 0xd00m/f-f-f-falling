@@ -1,1 +1,1 @@
-`Random things tha collide`
+`Random things that collide`

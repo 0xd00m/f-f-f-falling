@@ -28,15 +28,17 @@ curl https://api.meraki.com/api/v1/organizations \
   ```
 
 Expected result 
-![[https://raw.githubusercontent.com/0xd00m/f-f-f-falling/main/assets/screenshot-1653425105.png]]
+![screenshot-1653425105](https://user-images.githubusercontent.com/42084500/170133190-71694fcd-2b81-4404-a495-3a53f4af70a5.png)
+
 
 Meraki API endpoint listing and documentation https://developer.cisco.com/meraki/api-v1/
 
 
 {{baseUrl}}/organizations/{organizationId}/devices
 
-![[screenshot-1653425706.png]]
+![screenshot-1653425706](https://user-images.githubusercontent.com/42084500/170133217-5c3e199f-9348-483d-8315-a77dfbd92be9.png)
+
 
 {{baseUrl}}/organizations/{organizationId}/devices
 
-![[screenshot-1653426062.png]]
+![screenshot-1653426062](https://user-images.githubusercontent.com/42084500/170133245-b942329f-00ab-47db-b747-3a37ef339555.png)

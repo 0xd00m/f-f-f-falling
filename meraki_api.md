@@ -1,6 +1,4 @@
 Checkout out the [Explore](https://developer.cisco.com/meraki/explore/) section for open source projects, or browse the [Marketplace](https://apps.meraki.io/) for partner solutions.
-https://apps.meraki.io/
-
 
 Sandbox Meraki [Devnet](https://devnetsandbox.cisco.com/RM/Diagram/Index/a9487767-deef-4855-b3e3-880e7f39eadc?diagramType=Topology) 
 
@@ -30,7 +28,7 @@ curl https://api.meraki.com/api/v1/organizations \
   ```
 
 Expected result 
-![[screenshot-1653425105.png]]
+![[https://github.com/0xd00m/f-f-f-falling/blob/main/assets/screenshot-1653425105.png]]
 
 Meraki API endpoint listing and documentation https://developer.cisco.com/meraki/api-v1/
 

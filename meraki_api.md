@@ -28,7 +28,7 @@ curl https://api.meraki.com/api/v1/organizations \
   ```
 
 Expected result 
-![[https://github.com/0xd00m/f-f-f-falling/blob/main/assets/screenshot-1653425105.png]]
+![[https://raw.githubusercontent.com/0xd00m/f-f-f-falling/main/assets/screenshot-1653425105.png]]
 
 Meraki API endpoint listing and documentation https://developer.cisco.com/meraki/api-v1/
 
